@@ -47,7 +47,7 @@ namespace ConsoleApp.Domains.Tests
             Action action = () => personne = Personne.Create("Doe", "Jane", new DateTime(1919, 7, 28));
 
             //Assert
-            Assert.Throws<ArgumentException>(action);
+            Assert.Throws<ArgumentException>(action);            
         }
     }
 }

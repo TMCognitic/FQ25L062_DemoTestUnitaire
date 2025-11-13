@@ -45,7 +45,7 @@ namespace ConsoleApp.Domains.Entities
         private Courant(string numero, double ligneDeCredit, Personne titulaire)
         {
             Numero = numero;
-            Solde = ligneDeCredit;
+            LigneDeCredit = ligneDeCredit;
             Titulaire = titulaire;
         }
 
